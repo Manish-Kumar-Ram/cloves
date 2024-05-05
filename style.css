@@ -159,6 +159,7 @@ main .text{
     /* border: 2px solid red; */
 
 }
+
 .clients{
     width: 100%;
     padding: 50px;
@@ -220,103 +221,6 @@ display: flex
 }
 .pp{
     display: flex;
-}
-
-/* Media queries for different devices */
-
-/* For tablets (768px to 1023px) */
-@media (min-width: 768px) and (max-width: 1023px) {
-    /* Adjust header and main section styles for tablets */
-    header .img img {
-        width: 150px;
-        height: 60px;
-        margin-left: 20px;
-    }
-
-    header .btns {
-        margin-right: 20px;
-        width: 25rem;
-    }
-
-    header .app {
-        width: 250px;
-        height: 60px;
-        font-size: 1.3rem;
-    }
-
-    main img {
-        width: 400px;
-        height: 400px;
-        margin-right: 30px;
-    }
-
-    main h1 {
-        font-size: 2.8rem;
-    }
-
-    main p {
-        font-size: 1.6rem;
-    }
-
-    main h2 {
-        font-size: 1.4rem;
-    }
-
-    main button {
-        width: 250px;
-        height: 50px;
-        font-size: 1.2rem;
-    }
-}
-
-/* For mobile devices (up to 767px) */
-@media (max-width: 767px) {
-    /* Adjust header and main section styles for mobile devices */
-    header {
-        height: auto;
-        padding: 10px;
-    }
-
-    header .img img {
-        width: 120px;
-        height: 50px;
-        margin-left: 10px;
-    }
-
-    header .btns {
-        margin-right: 10px;
-        width: 20rem;
-    }
-
-    header .app {
-        width: 200px;
-        height: 50px;
-        font-size: 1.1rem;
-    }
-
-    main img {
-        width: 300px;
-        height: 300px;
-        margin-right: 20px;
-    }
-
-    main h1 {
-        font-size: 2.4rem;
-    }
-
-    main p {
-        font-size: 1.4rem;
-    }
-
-    main h2 {
-        font-size: 1.2rem;
-    }
-
-    main button {
-        width: 200px;
-        height: 45px;
-        font-size: 1rem;
-    }
 }
 
 
